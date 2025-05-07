@@ -1,0 +1,10 @@
+replicaCount: 2
+
+image:
+  repository: cart-service
+  tag: latest
+  pullPolicy: IfNotPresent
+
+service:
+  type: ClusterIP
+  port: 3003
